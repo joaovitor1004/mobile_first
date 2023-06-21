@@ -28,6 +28,7 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
 }
 
 .container__botao:checked~ .lista-menu{
@@ -41,11 +42,17 @@
 
 .lista-menu__titulo{
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link{
-    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.container__botao{
+    display: none;
 }
